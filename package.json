@@ -1,0 +1,27 @@
+{
+  "name": "realtime-chat-with-sentiment",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^5.0.1",
+    "express": "^4.18.2",
+    "next": "^5.1.0",
+    "pusher": "^1.5.1",
+    "pusher-js": "^4.4.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "sentiment": "^5.0.2"
+  },
+  "description": "This project contains the source code for a very simple realtime chat application with sentiment analysis. With sentiment analysis, we are able to detect the mood of a person based on the words they use in their chat messages.",
+  "main": "next.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
